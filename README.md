@@ -5,15 +5,15 @@ The troff transformation produces output for use with the troff viewer on Unix-s
 Compatibility
 -------------
 
--   DITA-OT 2.5
+-   DITA-OT 3.1
 
 Installation
 ------------
 
-Standard DITA-OT plug-in installation, see [DITA-OT documentation](http://www.dita-ot.org/2.5/dev_ref/plugins-installing.html).
+Standard DITA-OT plug-in installation, see [DITA-OT documentation](http://www.dita-ot.org/3.1/topics/plugins-installing.html).
 
 ```shell
-$ dita -install https://github.com/dita-ot/org.dita.troff/archive/2.5.zip
+$ dita -install https://github.com/dita-ot/org.dita.troff/archive/3.1.zip
 ```
 
 ## License
