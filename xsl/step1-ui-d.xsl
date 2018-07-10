@@ -11,7 +11,8 @@ See the accompanying LICENSE file for applicable license.
 <xsl:output method="xml"/>
 
 <xsl:template match="*[contains(@class, ' ui-d/screen ')]">
-  <block xml:space="preserve">
+  <block>
+    <xsl:attribute name="xml:space" select="'preserve'"/>
     <xsl:call-template name="commonatts"/>
     <xsl:apply-templates/>
   </block>
