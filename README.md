@@ -13,7 +13,7 @@ Installation
 Standard DITA-OT plug-in installation, see [DITA-OT documentation](http://www.dita-ot.org/3.1/topics/plugins-installing.html).
 
 ```shell
-$ dita -install https://github.com/dita-ot/org.dita.troff/archive/3.1.zip
+$ dita -install https://github.com/dita-ot/org.dita.troff/archive/3.1.1.zip
 ```
 
 ## License
