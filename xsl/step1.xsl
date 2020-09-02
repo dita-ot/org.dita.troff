@@ -127,7 +127,7 @@ See the accompanying LICENSE file for applicable license.
 
 <!-- These titles should come out as bold -->
 <xsl:template match="*[contains(@class,' topic/fig ')]/*[contains(@class,' topic/title ')]">
-  <xsl:variable name="fignum" select="count(preceding::*[contains(@class,' topic/fig ')]) + 1" as="xs:integer"/>
+  <xsl:variable name="fignum" select="count(preceding::*[contains(@class,' topic/fig ')][*[contains(@class,' topic/title ')]]) + 1" as="xs:integer"/>
   <block><xsl:call-template name="commonatts"/>
     <text style="bold">
       <xsl:call-template name="getVariable"><xsl:with-param name="id" select="'Figure'"/></xsl:call-template>
